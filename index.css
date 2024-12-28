@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+body {
+    margin: 4%;
+    overflow: scroll;
+}
+
+main {
+    margin: auto 18vw;
+}
+
+
+
+hr {
+    margin: 12px 0;
+    height: 1px;
+    border: none;
+    background-color: lightgray;
+}
+
+h2 {
+    margin: 12px 0;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+i {
+    /*color: black;*/
+    margin-right: 5px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+.github a {
+    color: black;
+}
+
+.fa-link {
+    margin-left: 5px;
+}
+
+.work-experience li {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+.flex-container p {
+    text-align: justify ;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    width: 50%;
+}
+
+.author {
+    font-family: "Jura";
+    font-weight: 550;
+    font-size: 44px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.mail{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.column-list {
+    column-count: 2;
+}
+
+.vertical-line {
+    width: 2px;
+    margin: 0 32px;
+    background-color: lightgray;
+}
